@@ -1,0 +1,9 @@
+﻿{
+  "bindings": [
+    {
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "test-input"
+    }
+  ]
+}

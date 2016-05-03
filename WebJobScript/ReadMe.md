@@ -1,0 +1,1 @@
+This sample demonstrates how to deploy the **Microsoft.Azure.WebJobs.Script** runtime as a Continuous WebJob.
