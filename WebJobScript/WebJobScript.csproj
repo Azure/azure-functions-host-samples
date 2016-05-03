@@ -189,10 +189,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="edge\x64\edge_nativeclr.node">
+    <None Include="packages\Edge.js.5.9.1\content\edge\x64\edge_nativeclr.node">
+      <Link>edge\x64\edge_nativeclr.node</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="edge\x86\edge_nativeclr.node">
+    <None Include="packages\Edge.js.5.9.1\content\edge\x86\edge_nativeclr.node">
+      <Link>edge\x86\edge_nativeclr.node</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Functions\host.json">
@@ -210,16 +212,20 @@
     <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="edge\double_edge.js">
+    <Content Include="packages\Edge.js.5.9.1\content\edge\double_edge.js">
+      <Link>edge\double_edge.js</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="edge\edge.js">
+    <Content Include="packages\Edge.js.5.9.1\content\edge\edge.js">
+      <Link>edge\edge.js</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="edge\x64\node.dll">
+    <Content Include="packages\Edge.js.5.9.1\content\edge\x64\node.dll">
+      <Link>edge\x64\node.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="edge\x86\node.dll">
+    <Content Include="packages\Edge.js.5.9.1\content\edge\x86\node.dll">
+      <Link>edge\x86\node.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Functions\QueueTrigger\index.js">
