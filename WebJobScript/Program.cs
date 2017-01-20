@@ -21,7 +21,7 @@ namespace WebJobScript
             };
 
             // start the ScriptHost
-            ScriptHost scriptHost = ScriptHost.Create(config);
+            ScriptHost scriptHost = ScriptHost.Create(scriptConfig: config);
             scriptHost.RunAndBlock();
         }
     }

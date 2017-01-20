@@ -1,9 +1,10 @@
 ﻿{
   "bindings": [
     {
-      "type": "queueTrigger",
-      "direction": "in",
-      "queueName": "test-input"
+        "type": "queueTrigger",
+        "name": "message",
+        "direction": "in",
+        "queueName": "test-input"
     }
   ]
 }
